@@ -18,7 +18,7 @@ public class HomeScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
 
-
+//one commitck
         String data2 = getIntent().getExtras().getString("link");
         String data3 = getIntent().getExtras().getString("domain");
         mProgress = ProgressDialog.show(this, "Loading", "Please wait for a moment...");;
